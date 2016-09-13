@@ -5,6 +5,8 @@ var _; //globals
       that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects.
       It's the tie to go along with jQuery's tux."
  */
+
+ // More about underscore.js > http://underscorejs.org/
 describe("About Higher Order Functions", function () {
 
   it("should use filter to return array items that meet a criteria", function () {
