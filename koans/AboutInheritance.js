@@ -3,7 +3,7 @@ function Muppet(age, hobby) {
   this.hobby = hobby;
 
   this.answerNanny = function(){
-	return "Everything's awesome!";
+	return "Everything's done!";
   }
 }
 
@@ -29,7 +29,7 @@ describe("About inheritance", function() {
   });
 
   it("should be able to call a method on the base object", function() {
-    expect(this.swedishChef.answerNanny()).toEqual("Everything's awesome!");
+    expect(this.swedishChef.answerNanny()).toEqual("Everything's done!");
   });
 
   it("should set constructor parameters on the base object", function() {
@@ -71,7 +71,7 @@ describe("About Crockford's inheritance improvement", function() {
   });
 
   it("should be able to call a method on the base object", function() {
-    expect(this.gonzo.answerNanny()).toEqual("Everything's awesome!");
+    expect(this.gonzo.answerNanny()).toEqual("Everything's done!");
   });
 
   it("should set constructor parameters on the base object", function() {
